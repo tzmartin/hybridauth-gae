@@ -14,7 +14,7 @@
  */
 class Hybrid_Auth 
 {
-	public static $version = "2.2.0-dev";
+	public static $version = "2.2.1-dev";
 
 	public static $config  = array();
 
@@ -105,8 +105,11 @@ class Hybrid_Auth
 
 		// PHP Curl extension [http://www.php.net/manual/en/intro.curl.php]
 		if ( ! function_exists('curl_init') ) {
-			Hybrid_Logger::error('Hybridauth Library needs the CURL PHP extension.');
-			throw new Exception('Hybridauth Library needs the CURL PHP extension.');
+		  
+		  require_once 'Purl-GAE/Purl.php';
+		  
+			//Hybrid_Logger::error('Hybridauth Library needs the CURL PHP extension.');
+			//throw new Exception('Hybridauth Library needs the CURL PHP extension.');
 		}
 
 		// PHP JSON extension [http://php.net/manual/en/book.json.php]
