@@ -1,6 +1,6 @@
 {
     "name": "tzmartin/hybridauth-gae",
-    "description": "Hybridauth for Google App Engine\'s PHP interpreter.  This fixes cUrl and provides a model layer for unified auth management on GAE. Forked from v2.2.0.”,
+    "description": "Hybridauth for Google App Engine PHP interpreter.  This fixes cUrl and provides a model layer for unified auth management on GAE. Forked from v2.2.0.",
     "keywords": ["hybridauth", "GAE", "App Engine", login", "oauth", "social", "openid", "facebook", "google", "twitter", "yahoo"],
     "homepage": "https://github.com/tzmartin/hybridauth-gae",
     "type": "library",
